@@ -12,6 +12,12 @@ This part worked pretty well, unfortunately FWD files don't have to contain loca
 Additionally FWD files didn't contain certain types of data unlike mdb files, which the fwd device also outputs, but due to PHP magic we weren't able to parse those because mdb is a very good file format that you should definetly use in your embedded device.
 These design flaws dragged the project down, untill it died.
 
+## Features
+
+- FWD file parsing
+- FWD output visualization
+- location data generation tool
+
 ## License
 
 All of this was written by me, except for the jquery-3.6.3.min.js, bootstrap-treeview.js and bootstrap-treeview.css files in the static folder.
